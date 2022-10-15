@@ -1,11 +1,4 @@
-﻿# CS611-<01>
-## <Tic Tac Toe and other variants>
----------------------------------------------------------------------------
-<Ye Tian>
-<ty2806@bu.edu>
-<U18899591>
-
-## Files
+﻿## Files
 ---------------------------------------------------------------------------
 GameBoard.java: The board class of the game. It contains a 2d array of Piece class and have methods for set and get board size, place to and get piece from a board location, and print the board.
 
@@ -20,13 +13,6 @@ Player.java: This class represent a player. It records what pieces a player is l
 RunGame.java: This is an abstract class. It contains a game's statistics like the number of games played, how many players a game have, and other common method useful during game running.
 
 RunTictactoe.java and RunOrderAndChaos.java: These 2 classes inherit RunGame class. They run tic tack toe and Order and Chaos respectively by using run method. They also implement methods for determine who wins and declare winner.
-
-## Notes
----------------------------------------------------------------------------
-1. <Files to be parsed should be stored in ConfigFiles, for parser class to
-read class>
-2. <Bonus Done>
-3. <Notes to grader>
 
 ## How to compile and run
 ---------------------------------------------------------------------------
